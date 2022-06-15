@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(void)
+{
+    int n,a,b;
+    scanf("%d",&n);
+    scanf("%d %d",&a,&b);
+    if(n>=a+b)
+    {
+        printf("Farei hoje!\n");
+    }
+    else if(n<a+b)
+    {
+        printf("Deixa para amanha!\n");
+    }
+
+
+    return 0;
+}
